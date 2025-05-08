@@ -22,7 +22,7 @@ The Intuned CLI exposes a variaty of commands to develop and create your Intuned
 ### Keys,Environment Variables and Settings
 
 - workspaceId: Your Intuned workspace ID, either provided via command line or Intuned.json setting -> (`workspaceId`)
-[How to get your workspaceId] https://docs.intunedhq.com/docs/guides/platform/how-to-get-a-workspace-id
+[How to get your workspaceId](https://docs.intunedhq.com/docs/guides/platform/how-to-get-a-workspace-id)
 - projectName: The name of your Intuned project, either provided via command line or Intuned.json setting -> (`projectName`)
 - INTUNED_API_KEY: Your Intuned API key, either provided via command line or environment variable
 
@@ -44,7 +44,7 @@ The Intuned CLI exposes a variaty of commands to develop and create your Intuned
 
 `yarn deploy` <project-name>
 
-- <project-name>: Optional project name that overrides the one on the intuned.json file
+- project-name: Optional project name that overrides the one on the intuned.json file
 - Options (optinal):
   - --workspace-id: Overrides the workspace id specified in the intuned.json file setting
   - --api-key: Overrides the api key provided by the environment var.
