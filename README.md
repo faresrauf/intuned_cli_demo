@@ -55,3 +55,4 @@ The Intuned CLI exposes a variaty of commands to develop and create your Intuned
 - All commands above should be runned from the root location of the project (from where you runned and created the project through `intuned-init` command)
 - Verify you're in the correct location by confirming the presence of package.json and intuned.json files
 - Running commands from subdirectories may result in errors or unexpected behavior
+- Warning: Changing the base tsconfig may break some intuned functionalities
