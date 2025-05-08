@@ -28,10 +28,10 @@ The Intuned CLI exposes a variaty of commands to develop and create your Intuned
 
 ### Running the APIs through development
 
-`yarn run-api` <api-name>
+`yarn run-api <api-name>`
 
 - Options:
-  - -i, --parameters-file <file>: JSON file containing API parameters
+  - -i, --parameters-file file-path: JSON file containing API parameters
   - -s, --store-results: Store the results of the running API inside the output directory:
     - ./output/[runId]/results.json
     - ./output/[runId]/extendedPayloads.json
@@ -42,7 +42,7 @@ The Intuned CLI exposes a variaty of commands to develop and create your Intuned
 
 ### Deploying the project
 
-`yarn deploy` <project-name>
+`yarn deploy <project-name>`
 
 - project-name: Optional project name that overrides the one on the intuned.json file
 - Options (optinal):
