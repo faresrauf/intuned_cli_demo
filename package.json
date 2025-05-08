@@ -11,9 +11,9 @@
     "types-check": "intuned-ts-check",
     "pre-publish": "intuned-ts-check && intuned-build",
     "start": "node ./output/bundle_v2.js",
-    "run-api": "intuned-run",
-    "cli-build": "intuned-build-project",
-    "deploy": "intuned-deploy"
+    "run-api": "run-api",
+    "cli-build": "cli-build",
+    "deploy": "deploy"
   },
   "author": "",
   "license": "ISC",
